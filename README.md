@@ -1,2 +1,1 @@
-# RISCV-processor
-RISC-V SoC written in SystemVerilog
+# RISC-V SoC written in Verilog
