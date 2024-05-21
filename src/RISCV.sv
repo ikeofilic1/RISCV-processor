@@ -27,9 +27,5 @@ package RISCV;
         
         // TODO: multiply extension here
     } alu_func_t;
-    
-//    typedef enum bit[2:0]
-//    {
-//        R_TYPE
-//    } instr_type;
+ 
 endpackage

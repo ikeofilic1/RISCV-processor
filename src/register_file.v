@@ -42,6 +42,7 @@ module register_file #(parameter N = 32, n = 32, localparam M = $clog2(N))
     always @(posedge clk)
         if (write_enable && write_addr) data[write_addr] = data_in; 
     
+    // Write first
     assign data_out1 = (write_enable && read_addr1 == write_addr) ? data_in : data[read_addr1];
     assign data_out2 = (write_enable && read_addr2 == write_addr) ? data_in : data[read_addr2];
 endmodule

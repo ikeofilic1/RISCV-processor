@@ -57,6 +57,7 @@ module memory_rw_stage (
       .douta(ram_r_data)  // output wire [31 : 0] douta
     );
     
+    // Read latency (1 cycle)
     always @ (posedge clk) begin
         if (rst) stalln <= 1'b1;
         else if (~stalln)

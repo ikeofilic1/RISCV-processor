@@ -19,7 +19,6 @@
 // 
 //////////////////////////////////////////////////////////////////////////////////
 
-// TODO: use addr_hi  and addr_lo instead of width and 
 module rom #(
     parameter INIT_FILE = "rom.mem",
     parameter ADDR_WIDTH = 32,

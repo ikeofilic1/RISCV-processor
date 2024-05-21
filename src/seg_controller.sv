@@ -50,7 +50,6 @@ reg [3:0] an_reg;
         round_counter <= round_counter + 1'd1;
     end
     
-    // Date of birth is 11/05
     always @(posedge divclk)
     begin
         if (round_counter == 2'd0) begin
