@@ -1,6 +1,6 @@
 # RISC-V SoC
 
-Fully-functional RISC-V SoC designed using SystemVerilog
+Fully functional RISC-V SoC designed using SystemVerilog
 
 # Table of Contents
 
@@ -13,8 +13,11 @@ Fully-functional RISC-V SoC designed using SystemVerilog
 
 # Project Features
 
-- [:heavy_check_mark:] Five-stage pipeline.
-- [:heavy_check_mark:] Native Memory-mapped IO*
+- [X] Five-stage pipeline.
+- [X] Data forwarding.
+- [X] Control Hazard detection
+- [X] Native Memory-mapped IO*.
+- [X] FPGA Block RAM using Xilinx's block memory generator.
 
 \*This is hardware-dependent. Right now, only 4 seven-segment displays (common-cathode) are mapped. I plan to add other IO devices supported on different types of FPGAs.
 
